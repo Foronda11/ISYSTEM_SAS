@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ISYSTEMS S.A.S - Soluciones integrales en SST, Gestión Ambiental, Sistemas de Calidad y Riesgo Psicosocial. Expertos en seguridad y salud en el trabajo." />
+  <meta name="keywords" content="SST, seguridad y salud en el trabajo, gestión ambiental, ISO 9001, riesgo psicosocial, Colombia" />
+  <title>ISYSTEMS S.A.S | Soluciones Integrales Empresariales</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <div class="logo-icon">
+          <svg viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="orbitGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#3b82f6"/>
+                <stop offset="100%" stop-color="#06b6d4"/>
+              </linearGradient>
+            </defs>
+            <ellipse cx="30" cy="30" rx="28" ry="10" stroke="url(#orbitGrad)" stroke-width="2.5" fill="none"/>
+            <ellipse cx="30" cy="30" rx="28" ry="10" stroke="url(#orbitGrad)" stroke-width="2.5" fill="none" transform="rotate(60 30 30)"/>
+            <ellipse cx="30" cy="30" rx="28" ry="10" stroke="url(#orbitGrad)" stroke-width="2.5" fill="none" transform="rotate(120 30 30)"/>
+            <circle cx="30" cy="30" r="7" fill="rgba(6,182,212,0.2)"/>
+            <circle cx="30" cy="30" r="4.5" fill="url(#orbitGrad)"/>
+            <circle cx="30" cy="30" r="2" fill="white" opacity="0.9"/>
+          </svg>
+        </div>
+        <div class="logo-text-group">
+          <span class="logo-text">ISYSTEMS S.A.S</span>
+          <span class="logo-sub">Sistemas de gestión</span>
+        </div>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#estadisticas">Impacto</a></li>
+        <li><a href="#testimonios">Clientes</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+      <a href="https://wa.me/573127362196" target="_blank" class="nav-cta">
+        <i class="fab fa-whatsapp"></i> Asesoría Gratis
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#servicios" class="mobile-link">Servicios</a></li>
+      <li><a href="#nosotros" class="mobile-link">Nosotros</a></li>
+      <li><a href="#estadisticas" class="mobile-link">Impacto</a></li>
+      <li><a href="#testimonios" class="mobile-link">Clientes</a></li>
+      <li><a href="#contacto" class="mobile-link">Contacto</a></li>
+      <li><a href="https://wa.me/573127362196" target="_blank" class="mobile-cta">
+        <i class="fab fa-whatsapp"></i> Solicitar Asesoría
+      </a></li>
+    </ul>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="hero-bg">
+      <div class="hero-grid"></div>
+      <div class="hero-glow hero-glow-1"></div>
+      <div class="hero-glow hero-glow-2"></div>
+      <div class="hero-particles" id="particles"></div>
+    </div>
+    <div class="hero-container">
+      <div class="hero-content" data-aos="fade-up">
+        <div class="hero-badge">
+          <span class="badge-dot"></span>
+          Empresa certificada · Colombia
+        </div>
+        <h1 class="hero-title">
+          Entornos seguros, mentes tranquilas,<br>
+          <span class="gradient-text">empresas sostenibles</span>
+        </h1>
+        <p class="hero-subtitle">
+          Acompañamos a las empresas colombianas en el cumplimiento normativo,
+          la seguridad de sus trabajadores y la excelencia operacional.
+        </p>
+        <div class="hero-actions">
+          <a href="https://wa.me/573127362196" target="_blank" class="btn-primary">
+            <i class="fab fa-whatsapp"></i>
+            Solicitar Asesoría
+          </a>
+          <a href="#servicios" class="btn-secondary">
+            Ver Servicios
+            <i class="fas fa-arrow-down"></i>
+          </a>
+        </div>
+        <div class="hero-trust">
+          <div class="trust-item">
+            <i class="fas fa-shield-alt"></i>
+            <span>SG-SST Certificado</span>
+          </div>
+          <div class="trust-divider"></div>
+          <div class="trust-item">
+            <i class="fas fa-leaf"></i>
+            <span>ISO 14001</span>
+          </div>
+          <div class="trust-divider"></div>
+          <div class="trust-item">
+            <i class="fas fa-award"></i>
+            <span>ISO 9001</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual" data-aos="fade-left">
+        <div class="hero-feat-grid">
+          <div class="feat-card feat-sst">
+            <div class="feat-card-glow"></div>
+            <div class="feat-icon"><i class="fas fa-hard-hat"></i></div>
+            <div class="feat-body">
+              <h4>SG-SST</h4>
+              <p>Sistema de Gestión en Seguridad y Salud en el Trabajo</p>
+            </div>
+            <span class="feat-norm"><i class="fas fa-certificate"></i> ISO 45001</span>
+          </div>
+          <div class="feat-card feat-calidad">
+            <div class="feat-card-glow"></div>
+            <div class="feat-icon"><i class="fas fa-award"></i></div>
+            <div class="feat-body">
+              <h4>SGC - Calidad</h4>
+              <p>Sistema de Gestión de Calidad</p>
+            </div>
+            <span class="feat-norm"><i class="fas fa-certificate"></i> ISO 9001</span>
+          </div>
+          <div class="feat-card feat-ambiental">
+            <div class="feat-card-glow"></div>
+            <div class="feat-icon"><i class="fas fa-leaf"></i></div>
+            <div class="feat-body">
+              <h4>SGA - Ambiental</h4>
+              <p>Sistema de Gestión Ambiental</p>
+            </div>
+            <span class="feat-norm"><i class="fas fa-certificate"></i> ISO 14001</span>
+          </div>
+          <div class="feat-card feat-psico">
+            <div class="feat-card-glow"></div>
+            <div class="feat-icon"><i class="fas fa-brain"></i></div>
+            <div class="feat-body">
+              <h4>SRP - Psicosocial</h4>
+              <p>Sistema de Riesgo Psicosocial</p>
+            </div>
+            <span class="feat-norm"><i class="fas fa-file-alt"></i> Res. 2646</span>
+          </div>
+        </div>
+        <div class="hero-stats-row">
+          <div class="hero-stat-item">
+            <strong>+150</strong>
+            <span>Empresas</span>
+          </div>
+          <div class="stat-sep"></div>
+          <div class="hero-stat-item">
+            <strong>+6</strong>
+            <span>Años exp.</span>
+          </div>
+          <div class="stat-sep"></div>
+          <div class="hero-stat-item">
+            <strong>+500</strong>
+            <span>Proyectos</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <div class="scroll-indicator">
+        <div class="scroll-dot"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICIOS -->
+  <section class="servicios" id="servicios">
+    <div class="section-container">
+      <div class="section-header" data-aos="fade-up">
+        <div class="section-tag">Nuestros Servicios</div>
+        <h2 class="section-title">Soluciones completas para<br>tu empresa</h2>
+        <p class="section-subtitle">Cubrimos todas las áreas críticas de cumplimiento y gestión empresarial con un enfoque integral y personalizado.</p>
+      </div>
+      <div class="servicios-grid">
+
+        <div class="servicio-card featured" data-aos="fade-up" data-aos-delay="0">
+          <div class="featured-label">Más solicitado</div>
+          <div class="card-icon sst">
+            <i class="fas fa-hard-hat"></i>
+          </div>
+          <div class="card-tag">SG-SST</div>
+          <h3>Seguridad y Salud<br>en el Trabajo</h3>
+          <p>Implementamos y gestionamos su Sistema de Gestión de Seguridad y Salud, garantizando cumplimiento legal y bienestar laboral.</p>
+          <ul class="card-list">
+            <li><i class="fas fa-check"></i> Implementación SG-SST</li>
+            <li><i class="fas fa-check"></i> Capacitaciones especializadas</li>
+            <li><i class="fas fa-check"></i> Auditorías internas y externas</li>
+            <li><i class="fas fa-check"></i> Planes de emergencia</li>
+            <li><i class="fas fa-check"></i> Certificaciones ante el Ministerio de Trabajo y la ARL como cumplimiento normativo para la excelencia</li>
+          </ul>
+          <a href="https://wa.me/573127362196?text=Hola,%20necesito%20información%20sobre%20SST" target="_blank" class="card-cta featured-cta">
+            Consultar <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+
+        <div class="servicio-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="card-icon ambiental">
+            <i class="fas fa-leaf"></i>
+          </div>
+          <div class="card-tag">SGA – Ambiental</div>
+          <h3>Gestión<br>Ambiental</h3>
+          <p>Asesoramos en la gestión ambiental empresarial garantizando el cumplimiento de normativas ambientales vigentes.</p>
+          <ul class="card-list">
+            <li><i class="fas fa-check"></i> Gestión ambiental empresarial</li>
+            <li><i class="fas fa-check"></i> Manejo de residuos</li>
+            <li><i class="fas fa-check"></i> Cumplimiento normativo</li>
+            <li><i class="fas fa-check"></i> Planes de manejo ambiental</li>
+          </ul>
+          <a href="https://wa.me/573127362196?text=Hola,%20necesito%20información%20sobre%20Gestión%20Ambiental" target="_blank" class="card-cta">
+            Consultar <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+
+        <div class="servicio-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="card-icon calidad">
+            <i class="fas fa-award"></i>
+          </div>
+          <div class="card-tag">SGC – Calidad</div>
+          <h3>Sistemas de<br>Gestión de Calidad</h3>
+          <p>Diseñamos e implementamos sistemas de gestión que impulsan la excelencia operacional y la satisfacción del cliente.</p>
+          <ul class="card-list">
+            <li><i class="fas fa-check"></i> Sistemas de gestión ISO</li>
+            <li><i class="fas fa-check"></i> Certificación ISO 9001</li>
+            <li><i class="fas fa-check"></i> Mejoramiento continuo</li>
+            <li><i class="fas fa-check"></i> Auditorías de calidad</li>
+          </ul>
+          <a href="https://wa.me/573127362196?text=Hola,%20necesito%20información%20sobre%20Sistemas%20de%20Calidad" target="_blank" class="card-cta">
+            Consultar <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+
+        <div class="servicio-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="card-icon psico">
+            <i class="fas fa-brain"></i>
+          </div>
+          <div class="card-tag">SRP – Psicosocial</div>
+          <h3>Riesgo<br>Psicosocial</h3>
+          <p>Evaluamos e intervenimos los factores de riesgo psicosocial, promoviendo el bienestar mental y organizacional.</p>
+          <ul class="card-list">
+            <li><i class="fas fa-check"></i> Evaluación de riesgos</li>
+            <li><i class="fas fa-check"></i> Intervención organizacional</li>
+            <li><i class="fas fa-check"></i> Bienestar laboral</li>
+            <li><i class="fas fa-check"></i> Programas de prevención</li>
+          </ul>
+          <a href="https://wa.me/573127362196?text=Hola,%20necesito%20información%20sobre%20Riesgo%20Psicosocial" target="_blank" class="card-cta">
+            Consultar <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- POR QUÉ ELEGIRNOS -->
+  <section class="nosotros" id="nosotros">
+    <div class="section-container">
+      <div class="nosotros-grid">
+        <div class="nosotros-content" data-aos="fade-right">
+          <div class="section-tag">¿Por qué elegirnos?</div>
+          <h2 class="section-title">Expertos que transforman<br>tu empresa</h2>
+          <p class="nosotros-desc">En ISYSTEMS S.A.S combinamos experiencia técnica, conocimiento normativo y compromiso con los resultados para ofrecer soluciones que realmente impactan tu organización.</p>
+          <div class="ventajas-list">
+            <div class="ventaja-item">
+              <div class="ventaja-icon">
+                <i class="fas fa-graduation-cap"></i>
+              </div>
+              <div>
+                <h4>Experiencia Profesional</h4>
+                <p>Equipo con amplia trayectoria en sectores industriales, comerciales y de servicios.</p>
+              </div>
+            </div>
+            <div class="ventaja-item">
+              <div class="ventaja-icon">
+                <i class="fas fa-user-tie"></i>
+              </div>
+              <div>
+                <h4>Atención Personalizada</h4>
+                <p>Cada cliente recibe un diagnóstico y plan de acción adaptado a su realidad empresarial.</p>
+              </div>
+            </div>
+            <div class="ventaja-item">
+              <div class="ventaja-icon">
+                <i class="fas fa-balance-scale"></i>
+              </div>
+              <div>
+                <h4>Cumplimiento Legal</h4>
+                <p>Garantizamos el cumplimiento de toda la normativa vigente colombiana e internacional.</p>
+              </div>
+            </div>
+            <div class="ventaja-item">
+              <div class="ventaja-icon">
+                <i class="fas fa-puzzle-piece"></i>
+              </div>
+              <div>
+                <h4>Soluciones Integrales</h4>
+                <p>Un solo aliado para todas sus necesidades de SST, calidad, ambiente y bienestar.</p>
+              </div>
+            </div>
+            <div class="ventaja-item">
+              <div class="ventaja-icon">
+                <i class="fas fa-handshake"></i>
+              </div>
+              <div>
+                <h4>Acompañamiento Continuo</h4>
+                <p>No solo implementamos, lo acompañamos en cada etapa del proceso de mejora.</p>
+              </div>
+            </div>
+            <div class="ventaja-item">
+              <div class="ventaja-icon">
+                <i class="fas fa-lock"></i>
+              </div>
+              <div>
+                <h4>Seguridad de la Información</h4>
+                <p>Garantizamos la confidencialidad y protección de todos los datos de su organización bajo estrictos protocolos de seguridad.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mision-vision-row" data-aos="fade-up">
+        <div class="vision-card" style="border-left-color: var(--teal);">
+          <div class="vision-icon" style="background: rgba(20,184,166,0.15); color: var(--teal);"><i class="fas fa-bullseye"></i></div>
+          <div class="vision-body">
+            <h4 class="vision-title" style="color: var(--teal);">Misión</h4>
+            <p class="vision-text">Transformar la cultura organizacional de nuestros clientes a través de consultoría de alto nivel en sistemas de gestión integral. En Isystems S.A.S. articulamos la excelencia en calidad, la responsabilidad ambiental y la protección de la salud física y mental de los colaboradores. Proveemos el respaldo y la tranquilidad que las empresas necesitan para evolucionar, fundamentando su éxito en entornos seguros, mentes tranquilas y empresas sostenibles.</p>
+          </div>
+        </div>
+        <div class="vision-card">
+          <div class="vision-icon"><i class="fas fa-eye"></i></div>
+          <div class="vision-body">
+            <h4 class="vision-title">Visión</h4>
+            <p class="vision-text">Para el año 2031, Isystems S.A.S. será consolidada como la firma consultora líder y el aliado estratégico preferido por las empresas para la transformación de sus culturas organizacionales. Seremos reconocidos por revolucionar la gestión integral en calidad, medio ambiente y bienestar humano, demostrando que la productividad florece allí donde existen entornos seguros, mentes tranquilas y empresas sostenibles.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ESTADÍSTICAS -->
+  <section class="estadisticas" id="estadisticas">
+    <div class="estadisticas-bg">
+      <div class="est-glow"></div>
+    </div>
+    <div class="section-container">
+      <div class="section-header" data-aos="fade-up">
+        <div class="section-tag light">Nuestro Impacto</div>
+        <h2 class="section-title light">Resultados que hablan<br>por sí solos</h2>
+      </div>
+      <div class="stats-grid">
+        <div class="stat-box" data-aos="fade-up" data-aos-delay="0">
+          <div class="stat-number" data-target="150">0</div>
+          <div class="stat-plus">+</div>
+          <div class="stat-label">Empresas atendidas</div>
+          <div class="stat-icon"><i class="fas fa-building"></i></div>
+        </div>
+        <div class="stat-box" data-aos="fade-up" data-aos-delay="100">
+          <div class="stat-number" data-target="6">0</div>
+          <div class="stat-plus">+</div>
+          <div class="stat-label">Años de experiencia</div>
+          <div class="stat-icon"><i class="fas fa-calendar-alt"></i></div>
+        </div>
+        <div class="stat-box" data-aos="fade-up" data-aos-delay="200">
+          <div class="stat-number" data-target="500">0</div>
+          <div class="stat-plus">+</div>
+          <div class="stat-label">Proyectos exitosos</div>
+          <div class="stat-icon"><i class="fas fa-project-diagram"></i></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIOS -->
+  <section class="testimonios" id="testimonios">
+    <div class="section-container">
+      <div class="section-header" data-aos="fade-up">
+        <div class="section-tag">Testimonios</div>
+        <h2 class="section-title">Lo que dicen<br>nuestros clientes</h2>
+      </div>
+      <div class="testimonios-grid">
+        <div class="testimonio-card" data-aos="fade-up" data-aos-delay="0">
+          <div class="t-stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p>"ISYSTEMS transformó por completo nuestra gestión de SST. Pasamos de cero cumplimiento a una auditoría aprobada en menos de 6 meses. Excelente equipo profesional."</p>
+          <div class="t-author">
+            <div class="t-avatar">JR</div>
+            <div>
+              <strong>Juan Ricardo Mora</strong>
+              <span>Gerente General · Constructora del Valle</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonio-card featured-t" data-aos="fade-up" data-aos-delay="100">
+          <div class="t-stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p>"La implementación del Sistema de Gestión Ambiental nos permitió cumplir con los requisitos de nuestros grandes clientes y mejorar nuestra imagen corporativa significativamente."</p>
+          <div class="t-author">
+            <div class="t-avatar green">MP</div>
+            <div>
+              <strong>María Paula Gómez</strong>
+              <span>Directora HSEQ · Industrias Andinas</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonio-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="t-stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p>"El estudio de riesgo psicosocial fue revelador. ISYSTEMS nos dio herramientas concretas para mejorar el clima laboral y reducir el ausentismo en un 40%."</p>
+          <div class="t-author">
+            <div class="t-avatar teal">CA</div>
+            <div>
+              <strong>Carlos Andrés Peña</strong>
+              <span>RRHH · Grupo Empresarial Medellín</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="contacto" id="contacto">
+    <div class="section-container">
+      <div class="contacto-grid">
+        <div class="contacto-info" data-aos="fade-right">
+          <div class="section-tag">Contacto</div>
+          <h2 class="section-title">¿Listo para transformar<br>tu empresa?</h2>
+          <p>Contáctenos hoy y reciba una asesoría gratuita sin compromiso. Nuestro equipo está listo para ayudarle a alcanzar el cumplimiento normativo y la excelencia empresarial.</p>
+          <div class="contact-methods">
+            <a href="https://wa.me/573127362196" target="_blank" class="contact-method whatsapp">
+              <i class="fab fa-whatsapp"></i>
+              <div>
+                <strong>WhatsApp</strong>
+                <span>+57 312 736 2196</span>
+              </div>
+            </a>
+            <a href="mailto:sforonda10@gmail.com" class="contact-method email">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <strong>Correo</strong>
+                <span>sforonda10@gmail.com</span>
+              </div>
+            </a>
+            <div class="contact-method location">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <strong>Ubicación</strong>
+                <span>Colombia</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contacto-form-wrap" data-aos="fade-left">
+          <form class="contacto-form" id="contactForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label>Nombre completo</label>
+                <input type="text" name="nombre" placeholder="Tu nombre" required />
+              </div>
+              <div class="form-group">
+                <label>Empresa</label>
+                <input type="text" name="empresa" placeholder="Nombre de la empresa" />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label>Teléfono</label>
+                <input type="tel" name="telefono" placeholder="+57 300 000 0000" />
+              </div>
+              <div class="form-group">
+                <label>Correo electrónico</label>
+                <input type="email" name="correo" placeholder="correo@empresa.com" required />
+              </div>
+            </div>
+            <div class="form-group full">
+              <label>Servicio de interés</label>
+              <select name="servicio">
+                <option value="">Seleccione un servicio</option>
+                <option>SG-SST – Seguridad y Salud en el Trabajo</option>
+                <option>SGA – Gestión Ambiental</option>
+                <option>SGC – Sistemas de Gestión de Calidad</option>
+                <option>SRP – Riesgo Psicosocial</option>
+                <option>Todos los servicios</option>
+              </select>
+            </div>
+            <div class="form-group full">
+              <label>Mensaje</label>
+              <textarea name="mensaje" rows="4" placeholder="Cuéntenos brevemente sobre su empresa y necesidades..."></textarea>
+            </div>
+            <button type="submit" class="btn-form" id="submitBtn">
+              <span class="btn-text"><i class="fas fa-paper-plane"></i> Enviar Solicitud</span>
+              <span class="btn-loading" style="display:none"><i class="fas fa-spinner fa-spin"></i> Enviando...</span>
+            </button>
+            <div class="form-success" id="formSuccess" style="display:none">
+              <i class="fas fa-check-circle"></i>
+              <p>¡Mensaje enviado! Nos contactaremos pronto.</p>
+            </div>
+            <div class="form-error" id="formError" style="display:none">
+              <i class="fas fa-exclamation-circle"></i>
+              <p>Error al enviar. Por favor contáctenos por WhatsApp.</p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-main">
+        <div class="footer-brand">
+          <div class="nav-logo" style="margin-bottom:1rem">
+            <div class="logo-icon">
+              <svg viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <linearGradient id="orbitGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#3b82f6"/>
+                    <stop offset="100%" stop-color="#06b6d4"/>
+                  </linearGradient>
+                </defs>
+                <ellipse cx="30" cy="30" rx="28" ry="10" stroke="url(#orbitGrad2)" stroke-width="2.5" fill="none"/>
+                <ellipse cx="30" cy="30" rx="28" ry="10" stroke="url(#orbitGrad2)" stroke-width="2.5" fill="none" transform="rotate(60 30 30)"/>
+                <ellipse cx="30" cy="30" rx="28" ry="10" stroke="url(#orbitGrad2)" stroke-width="2.5" fill="none" transform="rotate(120 30 30)"/>
+                <circle cx="30" cy="30" r="7" fill="rgba(6,182,212,0.2)"/>
+                <circle cx="30" cy="30" r="4.5" fill="url(#orbitGrad2)"/>
+                <circle cx="30" cy="30" r="2" fill="white" opacity="0.9"/>
+              </svg>
+            </div>
+            <span class="logo-text">ISYSTEMS S.A.S</span>
+          </div>
+          <p>Soluciones integrales en SST, Gestión Ambiental, Sistemas de Calidad y Riesgo Psicosocial para empresas colombianas.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://wa.me/573127362196" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h4>Servicios</h4>
+          <ul>
+            <li><a href="#servicios">SST - SG-SST</a></li>
+            <li><a href="#servicios">Gestión Ambiental</a></li>
+            <li><a href="#servicios">ISO 9001 · Calidad</a></li>
+            <li><a href="#servicios">Riesgo Psicosocial</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Empresa</h4>
+          <ul>
+            <li><a href="#nosotros">¿Por qué elegirnos?</a></li>
+            <li><a href="#estadisticas">Nuestro impacto</a></li>
+            <li><a href="#testimonios">Testimonios</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h4>Contacto</h4>
+          <a href="https://wa.me/573127362196" target="_blank"><i class="fab fa-whatsapp"></i> +57 312 736 2196</a>
+          <a href="mailto:sforonda10@gmail.com"><i class="fas fa-envelope"></i> sforonda10@gmail.com</a>
+          <span><i class="fas fa-map-marker-alt"></i> Colombia</span>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2024 ISYSTEMS S.A.S · Todos los derechos reservados</p>
+        <p>Diseñado para la excelencia empresarial</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp flotante -->
+  <a href="https://wa.me/573127362196?text=Hola,%20necesito%20información%20sobre%20sus%20servicios" target="_blank" class="wa-float" aria-label="WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+    <span class="wa-tooltip">¡Escríbenos!</span>
+  </a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
