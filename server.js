@@ -168,8 +168,8 @@ app.get('*', (req, res) => {
 });
 
 // ---- START SERVER ----
-app.listen(PORT, () => {
-  console.log(`\n🚀 ISYSTEM S.A.S server running on http://localhost:${PORT}\n`);
+app.listen(PORT, '0.0.0.0', () => {
+  console.log(`\n🚀 ISYSTEMS S.A.S server running on http://0.0.0.0:${PORT}\n`);
 });
 
 module.exports = app;
